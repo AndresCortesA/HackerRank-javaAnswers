@@ -87,3 +87,11 @@ public class Main {
     }
 }
 ```
+---
+# Java Currency Formatter
+Given a double-precision number, 5***payment***, denoting an amount of money, use the NumberFormat class'getCurrencyInstance method to convert ***payment*** into the US, Indian, Chinese, and French currency formats. Then print the formatted values as follows:  
+US: formattedPayment  
+India: formattedPayment  
+China: formattedPayment  
+France: formattedPayment  
+where ***formattedPayment*** is ***payment*** formatted according to the appropriate Locale's[Google](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) currency.
