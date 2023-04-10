@@ -94,4 +94,4 @@ US: formattedPayment
 India: formattedPayment  
 China: formattedPayment  
 France: formattedPayment  
-where ***formattedPayment*** is ***payment*** formatted according to the appropriate [Locale]'s(https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) currency.
+where ***formattedPayment*** is ***payment*** formatted according to the appropriate [Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)'s currency.
