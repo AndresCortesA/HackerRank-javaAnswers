@@ -101,7 +101,7 @@ where ***formattedPayment*** is ***payment*** formatted according to the appropr
 **Note**: India does not have a built-in Locale, so you must [construct one](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html#Locale-java.lang.String-java.lang.String-) where the language is en (i.e., English).  
   
 **Constraints**  
-**0 <= payment <= 10^9
+**0 <= payment <= 10^9**
   
 **Output Format**  
 On the first line, print US: u where **u** is ***payment** formatted for US currency.  
