@@ -89,9 +89,25 @@ public class Main {
 ```
 ---
 # Java Currency Formatter
-Given a double-precision number, 5***payment***, denoting an amount of money, use the NumberFormat class'getCurrencyInstance method to convert ***payment*** into the US, Indian, Chinese, and French currency formats. Then print the formatted values as follows:  
+Given a double-precision number, ***payment***, denoting an amount of money, use the NumberFormat class'getCurrencyInstance method to convert ***payment*** into the US, Indian, Chinese, and French currency formats. Then print the formatted values as follows:  
+  
 US: formattedPayment  
 India: formattedPayment  
 China: formattedPayment  
 France: formattedPayment  
-where ***formattedPayment*** is ***payment*** formatted according to the appropriate [Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)'s currency.
+  
+where ***formattedPayment*** is ***payment*** formatted according to the appropriate [Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)'s currency.  
+  
+**Note**: India does not have a built-in Locale, so you must [construct one](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html#Locale-java.lang.String-java.lang.String-) where the language is en (i.e., English).  
+  
+**Constraints**
+**0 <= payment <= 10^9
+  
+**Output Format**
+On the first line, print US: u where **u** is ***payment** formatted for US currency.
+On the second line, print India: i  **i** is ***payment*** formatted for Indian currency.
+On the third line, print China: c where **c** is ***payment*** formatted for Chinese currency.
+On the fourth line, print France: f, where **f** is ***payment*** formatted for French currency.  
+  
+**Sample Input**
+**12324,134**
